@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Learn JavaScript Classes</title>
-	</head>
-	<body>
-		<h1>Learn JavaScript Classes</h1>
 
-		<script type="text/javascript">
 			class Rectangle {
 				constructor (_width, _height, _color) {
 					console.log("The Rectangle is being created");
@@ -35,6 +25,3 @@
 			console.log(myRectancle2);
 			console.log("AREA ===> ", myRectancle2.getArea());
 			myRectancle2.echoDescription();
-		</script>		
-	</body>
-</html>
